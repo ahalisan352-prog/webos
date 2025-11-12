@@ -1,0 +1,21 @@
+webos/
+├── index.html
+├── css/
+│   ├── kernel.css
+│   └── desktop.css
+└── js/
+    ├── kernel/
+    │   ├── kernel.js
+    │   ├── memory.js
+    │   ├── process.js
+    │   └── filesystem.js
+    ├── apps/
+    │   └── terminal.js
+    ├── services/
+    │   └── network.js
+    ├── ui/
+    │   └── desktop.js
+    ├── boot/
+    │   └── bootloader.js
+    └── utils/
+        └── helpers.js

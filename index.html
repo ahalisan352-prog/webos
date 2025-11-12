@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebOS - سیستم عامل تحت وب</title>
+    <link rel="stylesheet" href="css/kernel.css">
+    <link rel="stylesheet" href="css/desktop.css">
+</head>
+<body>
+    <div id="boot-screen">
+        <div class="boot-loader">
+            <div class="boot-logo">🖥️ WebOS</div>
+            <div class="boot-progress">
+                <div class="boot-bar"></div>
+            </div>
+            <div class="boot-message">در حال بارگذاری هسته...</div>
+        </div>
+    </div>
+
+    <div id="desktop" class="hidden">
+        <!-- دسکتاپ اینجا ساخته می‌شود -->
+    </div>
+
+    <script src="js/utils/helpers.js"></script>
+    <script src="js/kernel/memory.js"></script>
+    <script src="js/kernel/process.js"></script>
+    <script src="js/kernel/filesystem.js"></script>
+    <script src="js/kernel/kernel.js"></script>
+    <script src="js/apps/terminal.js"></script>
+    <script src="js/ui/desktop.js"></script>
+    <script src="js/boot/bootloader.js"></script>
+</body>
+</html>
